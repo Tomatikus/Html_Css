@@ -1,12 +1,34 @@
-h1{
-    color: blue;
-    font-size: 75px;
+a {
+    text-decoration: none;
 }
-h2{
-    color: darkmagenta;
-    font-size: 45px;
+
+.lenk{
+    color: rgb(17, 89, 223);
+    font-size: 16px;
+    line-height: 20px;
 }
-h3{
-    color: blueviolet;
+
+.main {
+    color: #d41212;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+}
+.second{
+    color: rgb(181, 214, 35);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+.therd{
+    color: rgb(75, 9, 136);
     font-size: 35px;
+}
+.paragraf{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #000000;
 }
