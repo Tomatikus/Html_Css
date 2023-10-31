@@ -35,28 +35,17 @@ body {
 }
 
 .header__logo {
-    width: 137px;
-    height: 40px;
+    width: 1170px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
-}
-
-.colortext {
-    color: #F25822;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    justify-content: space-between;
 }
 
 .menu__bar {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 1012px;
-    height: 17px;
-    flex-shrink: 0;
     gap: 20px;
     color: #000;
     font-family: Gilroy-Medium;
@@ -141,6 +130,7 @@ body {
     font-weight: 400;
     line-height: normal;
     color: #fff;
+    cursor: pointer;
 }
 
 .button__copy {
@@ -154,6 +144,7 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    cursor: pointer;
 }
 
 h1,
@@ -188,11 +179,6 @@ footer {
     height: 291px;
     align-items: center;
     justify-content: space-between;
-}
-
-.first rec {
-    /* width: 381px;
-    height: 291px; */
 }
 
 svg {
@@ -240,8 +226,6 @@ svg {
 }
 
 .second rec {
-    /* width: 381px;
-    height: 291px; */
     flex-shrink: 0;
     box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 }
@@ -289,7 +273,88 @@ svg {
     margin-bottom: 25px;
 }
 
-.therd rec {
-    /* width: 381px;
-    height: 291px; */
+.space {
+    height: 30px;
+}
+
+.secation_title {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.information_title {
+    margin: 0 auto;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.information_par {
+    width: 682px;
+    color: #666;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.center {
+    margin: auto;
+    width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card {
+    cursor: auto;
+    width: 370px;
+    background: #FFF;
+    box-shadow: 15px 25px 60px -5px rgba(0, 0, 0, 0.10);
+}
+
+.titel_text {
+    padding: 0 92px;
+    color: #000;
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.title_paragraf {
+    margin: 30px;
+    width: 310px;
+    color: #AAA;
+    text-align: center;
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.learn_more {
+    margin-top: 39px;
+    margin-left: 100px;
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    background: #F25822;
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    cursor: pointer;
 }
