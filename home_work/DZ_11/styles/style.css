@@ -1,7 +1,19 @@
 body {
     margin: 0px;
     padding: 0px;
+    cursor: auto;
 }
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
 
 .back_header {
     background-color: #222;
@@ -13,17 +25,89 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding-right: 240px;
+    padding-left: 231px;
 }
 
 .intermedia {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #F1E4E6;
+}
+
+.discount_menu {
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.rectangle {
+    cursor: pointer;
+    position: relative;
+}
+
+.rectangle4 {
+    grid-column: 1/ 4;
+}
+
+.upper_text {
+    max-width: 159px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.w {
+    max-width: 168px;
+    max-height: 50px;
+}
+
+.m {
+    max-width: 126px;
+    max-height: 50px;
+}
+
+.a {
+    max-width: 175px;
+    max-height: 50px;
 }
 
 
+.discount_info {
+    display: flex;
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.main_title {
+    margin: 0 auto;
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
 .main_title_text {
-    max-width: 377px;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    width: 377px;
     color: #222;
     font-family: Lato;
     font-size: 48px;
@@ -50,12 +134,10 @@ header {
     line-height: normal;
 }
 
-.rectangle {
-    display: grid;
-    justify-content: center;
-}
 
 .top_text {
+    margin: 0 auto;
+    padding-top: 96px;
     display: flex;
     justify-content: center;
     color: #222;
@@ -76,7 +158,120 @@ header {
     font-weight: 400;
     line-height: normal;
 }
-.card_info_new{
+
+.text_card {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 25px;
+}
+
+.paragraf_info {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.content {
+    padding-top: 48px;
+    padding-bottom: 48px;
     display: grid;
-    grid-template-columns: repeat(3,360px);
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_info_new {
+    max-width: 360px;
+    gap: 30px;
+    background-color: #F8F8F8;
+    cursor: pointer;
+    
+}
+
+.button_wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 212px;
+    height: 48px;
+    border: 3px solid #F26376;
+}
+
+.link_button {
+    border: none;
+    background-color: #FFF;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1439px ) {
+    
+    .centre{
+    max-width: 100%;
+    }
+
+    .back_header{
+        height: 74px;
+    }
+    
+    header{
+        padding: 18px 32px;
+    }
+
+    .main_title{
+        gap: 39px;
+    }
+
+    .discount_menu {
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 231px);
+    gap: 19px;
+
+    }
+    .rectangle{
+        box-shadow: rgba(33, 22, 22, 0.70);
+    }
+
+    .discount_info{
+        width: 118px;
+    }
+
+    .w{
+        width: 155px;
+    }
+
+    .top_text{
+        padding-top: 109px;
+        padding-bottom: 3px;
+    }
+    .content{
+        margin: 16px;
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
 }
