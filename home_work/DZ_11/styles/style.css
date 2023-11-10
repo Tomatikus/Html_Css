@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -24,9 +30,9 @@ header {
     padding-top: 18px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-right: 240px;
-    padding-left: 231px;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 .intermedia {
@@ -107,7 +113,7 @@ header {
 .main_title_text {
     border-left: 12px solid #F16D7F;
     padding-left: 16px;
-    width: 377px;
+    max-width: 377px;
     color: #222;
     font-family: Lato;
     font-size: 48px;
@@ -204,7 +210,7 @@ header {
     gap: 30px;
     background-color: #F8F8F8;
     cursor: pointer;
-    
+
 }
 
 .button_wrapper {
@@ -228,48 +234,50 @@ header {
     cursor: pointer;
 }
 
-@media (min-width: 768px) and (max-width: 1439px ) {
-    
-    .centre{
-    max-width: 100%;
+@media (min-width: 768px) and (max-width: 1439px) {
+
+    .centre {
+        max-width: 100%;
     }
 
-    .back_header{
+    .back_header {
         height: 74px;
     }
-    
-    header{
+
+    header {
         padding: 18px 32px;
     }
 
-    .main_title{
+    .main_title {
         gap: 39px;
     }
 
     .discount_menu {
-    padding-top: 65px;
-    display: grid;
-    grid-template-columns: repeat(3, 231px);
-    gap: 19px;
+        padding-top: 65px;
+        display: grid;
+        grid-template-columns: repeat(3, 231px);
+        gap: 19px;
 
     }
-    .rectangle{
+
+    .rectangle {
         box-shadow: rgba(33, 22, 22, 0.70);
     }
 
-    .discount_info{
+    .discount_info {
         width: 118px;
     }
 
-    .w{
+    .w {
         width: 155px;
     }
 
-    .top_text{
+    .top_text {
         padding-top: 109px;
         padding-bottom: 3px;
     }
-    .content{
+
+    .content {
         margin: 16px;
         grid-template-columns: repeat(2, 360px);
         gap: 16px;
