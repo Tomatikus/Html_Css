@@ -257,7 +257,6 @@ header {
         display: grid;
         grid-template-columns: repeat(3, 231px);
         gap: 19px;
-
     }
 
     .rectangle {
@@ -280,6 +279,64 @@ header {
     .content {
         margin: 16px;
         grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+    .centre {
+        max-width: 100%;
+    }
+
+    .back_header {
+        height: 74px;
+    }
+
+    header {
+        padding: 18px 32px;
+    }
+
+    .main_title {
+        gap: 39px;
+    }
+
+    .discount_menu {
+        padding-top: 64px;
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .main_title {
+        width: 375px;
+        height: 363px;
+    }
+
+    .main_pic {
+        display: none;
+    }
+
+    .main_title_text {
+        font-size: 38px;
+        margin-left: 56px;
+        margin-right: 56px;
+    }
+
+    .mid_text,
+    .last_text {
+        font-size: 20px;
+    }
+
+    .menu{
+        display: none;
+        
+    }
+    .content {
+        margin: 16px;
+        grid-template-columns: repeat(1, 360px);
         gap: 16px;
     }
 }
