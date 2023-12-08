@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FirstProject</title>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+     
+        <header class="header center">
+                <a class="header-item" href="./index.html">Home</a>
+                <a class="header-item" href="./catalog.html">About</a>
+                <a class="header-item" href="./catalog.html">Services</a>
+                <a class="header-item" href="./catalog.html">Blog</a>
+                <a class="header-item" href="./catalog.html">Contact</a>
+                <!-- <input class="input" type="text"> -->
+        </header>
+     
+    <!-- <section class="test">
+        <div class="item-text">
+            Lorem, ipsum.
+        </div>
+        <div class="item">1</div>
+        <div class="item">
+            <p class="item-text">Lorem ipsum dolor sit.</p>
+            <div class="item-text">
+                2
+            </div>
+        </div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </section>    -->
+    <section class="intro center">
+        <div class="intro-left">
+            <div class="intro-upper-title">
+                Next genaretion platform
+            </div>
+            <h1 class="intro-title">
+                Artificial intelligence & Syber security
+            </h1>
+            <div class="intro-description">
+                Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+            <div class="intro-button-wrapper">
+                <button class="intro-button">Get Started</button>
+                <button class="intro-button button-withIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="25" viewBox="0 0 20 25" fill="none">
+                        <path d="M20 12.5L0.500001 24.1913L0.500002 0.808657L20 12.5Z" fill="white"/>
+                    </svg>
+                    Watch Video
+                </button>
+            </div>
+        </div>
+        <!-- здесь можно обойтись без div intro-right, а сразу -->
+        <!-- webp более оптимальная загрузка-->
+        <picture>
+            <source media="(max-width: 767px)" srcset="./assets/images/intro-mobile.png">
+            <!-- <source media="(min-width: 768px) and (max-width: 1023px)" srcset="./assets/images/intro-mobile.png">
+            <source media="(min-width: 1024px) and (max-width: 1439px)" srcset="./assets/images/intro-mobile.png"> -->
+            <img src="./assets/images/intro.png">
+        </picture>
+    </section>
+    <section class="cards center">
+        <img src="./assets/images/1.svg" alt="">
+        <img src="./assets/images/2.svg" alt="">
+        <img src="./assets/images/3.svg" alt="">
+        <div class="card-item">
+            <img  src="./assets/images/4.svg" alt="">
+        </div>
+    </section>
+    <section class="imageText center">
+        <div class="img-wrapper">
+            <div class="img-bg"></div>
+            <img src="./assets/images/about4.png" alt="" srcset="">
+        </div>
+        <div class="leftText">
+            <div class="titleText">Apply AI, Deep Learning and Data Sciece to solve</div>
+            <div class="descText">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+            <div class="buttonWrapperText">
+                <button class="intro-button">Learn More</button>
+            </div>
+        </div>
+    </section>
+    <!-- <div class="container flex">
+        <div class="item">1</div>
+        <div class="item item2">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        
+    </div> -->
+    <!-- <div class="container grid">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item item3">3</div>
+        <div class="item item4">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+        <div class="item">10</div>
+    </div> -->
+    <section class="services centerV2">
+        <div class="services__item">
+            <img class="services__item-image" src="./assets/images/services.png">
+            <div class="services__item-title">
+                Expert Prespective Agency Awards
+            </div>
+            <div class="services__item-desc">
+                Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+        </div>
+        <div class="services__item">
+            <img class="services__item-image" src="./assets/images/services.png">
+            <div class="services__item-title">
+                Expert Prespective Agency Awards
+            </div>
+            <div class="services__item-desc">
+                Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+        </div>
+        <div class="services__item">
+            <img class="services__item-image" src="./assets/images/services.png">
+            <div class="services__item-title">
+                Expert Prespective Agency Awards
+            </div>
+            <div class="services__item-desc">
+                Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+        </div>
+        <div class="services__item item-big">
+            <div class="services__item-img">
+                <img class="services__item-image-big" src="./assets/images/services-big.png">
+                <button class="services__item-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="25" viewBox="0 0 27 25" fill="none">
+                        <path d="M21.9521 23.2662H21.8397C21.2306 23.2662 20.7188 22.7666 20.6746 22.1289C20.6302 21.4602 21.1187 20.8781 21.7637 20.8341C21.7891 20.8324 21.8156 20.8315 21.8417 20.8315C22.4587 20.8315 22.9755 21.3214 23.0213 21.9482C23.0331 22.1967 22.9926 22.5509 22.7371 22.8434L22.7312 22.8502L22.7254 22.8571C22.5287 23.0907 22.2619 23.2316 21.9521 23.2662ZM8.22003 23.2599C7.56946 23.2599 7.04022 22.7169 7.04022 22.0496C7.04022 21.3827 7.56946 20.8401 8.22003 20.8401C8.87061 20.8401 9.39984 21.3827 9.39984 22.0496C9.39984 22.7169 8.87061 23.2599 8.22003 23.2599Z" fill="white"/>
+                        <path d="M21.8765 22.2662C21.9215 22.2549 21.9428 22.2339 21.9605 22.2129C21.9683 22.2037 21.9761 22.1946 21.9839 22.1855C22.0204 22.1438 22.0237 22.0553 22.0229 22.0105C22.0097 21.9044 21.9189 21.8315 21.8417 21.8315C21.838 21.8315 21.8341 21.8317 21.8317 21.8318C21.7536 21.8372 21.6658 21.9409 21.6724 22.0625C21.6818 22.1793 21.7679 22.2662 21.8397 22.2662H21.8765ZM8.22003 22.2599C8.31921 22.2599 8.39984 22.1655 8.39984 22.0496C8.39984 21.9341 8.31921 21.8401 8.22003 21.8401C8.12091 21.8401 8.04022 21.9341 8.04022 22.0496C8.04022 22.1655 8.12091 22.2599 8.22003 22.2599ZM21.9999 24.2662C21.9522 24.2662 21.8883 24.2662 21.8397 24.2662C20.7021 24.2662 19.7571 23.3545 19.677 22.198C19.5969 20.9929 20.4942 19.9183 21.6957 19.8364C21.7446 19.8331 21.7933 19.8315 21.8417 19.8315C22.9804 19.8315 23.9418 20.7324 24.0195 21.8884C24.051 22.4915 23.8746 23.0612 23.4903 23.5012C23.106 23.9575 22.5768 24.2177 21.9999 24.2662ZM8.22003 24.2599C7.01581 24.2599 6.04022 23.2709 6.04022 22.0496C6.04022 20.8291 7.01581 19.8401 8.22003 19.8401C9.42419 19.8401 10.3998 20.8291 10.3998 22.0496C10.3998 23.2709 9.42419 24.2599 8.22003 24.2599ZM21.1989 17.3938H9.13354C8.70062 17.3938 8.31635 17.1005 8.2038 16.6775L4.27802 2.24768H1.52222C0.993896 2.24768 0.561035 1.80859 0.561035 1.27039C0.561035 0.733032 0.993896 0.292969 1.52222 0.292969H4.99982C5.43182 0.292969 5.8161 0.586304 5.92859 1.01025L9.85443 15.4391H20.5581L24.1149 7.13379H12.2583C11.7291 7.13379 11.2962 6.69373 11.2962 6.15649C11.2962 5.61914 11.7291 5.17908 12.2583 5.17908H25.5891C25.9095 5.17908 26.2146 5.34192 26.3901 5.61914C26.5665 5.89539 26.5989 6.23743 26.4702 6.547L22.08 16.807C21.9198 17.1653 21.5832 17.3938 21.1989 17.3938Z" fill="white"/>
+                        <path d="M21.8765 22.2662C21.9215 22.2549 21.9428 22.2339 21.9605 22.2129C21.9683 22.2037 21.9761 22.1946 21.9839 22.1855C22.0204 22.1438 22.0237 22.0553 22.0229 22.0105C22.0097 21.9044 21.9189 21.8315 21.8417 21.8315C21.838 21.8315 21.8341 21.8317 21.8317 21.8318C21.7536 21.8372 21.6658 21.9409 21.6724 22.0625C21.6818 22.1793 21.7679 22.2662 21.8397 22.2662H21.8765ZM8.22003 22.2599C8.31921 22.2599 8.39984 22.1655 8.39984 22.0496C8.39984 21.9341 8.31921 21.8401 8.22003 21.8401C8.12091 21.8401 8.04022 21.9341 8.04022 22.0496C8.04022 22.1655 8.12091 22.2599 8.22003 22.2599ZM21.9999 24.2662C21.9522 24.2662 21.8883 24.2662 21.8397 24.2662C20.7021 24.2662 19.7571 23.3545 19.677 22.198C19.5969 20.9929 20.4942 19.9183 21.6957 19.8364C21.7446 19.8331 21.7933 19.8315 21.8417 19.8315C22.9804 19.8315 23.9418 20.7324 24.0195 21.8884C24.051 22.4915 23.8746 23.0612 23.4903 23.5012C23.106 23.9575 22.5768 24.2177 21.9999 24.2662ZM8.22003 24.2599C7.01581 24.2599 6.04022 23.2709 6.04022 22.0496C6.04022 20.8291 7.01581 19.8401 8.22003 19.8401C9.42419 19.8401 10.3998 20.8291 10.3998 22.0496C10.3998 23.2709 9.42419 24.2599 8.22003 24.2599ZM21.1989 17.3938H9.13354C8.70062 17.3938 8.31635 17.1005 8.2038 16.6775L4.27802 2.24768H1.52222C0.993896 2.24768 0.561035 1.80859 0.561035 1.27039C0.561035 0.733032 0.993896 0.292969 1.52222 0.292969H4.99982C5.43182 0.292969 5.8161 0.586304 5.92859 1.01025L9.85443 15.4391H20.5581L24.1149 7.13379H12.2583C11.7291 7.13379 11.2962 6.69373 11.2962 6.15649C11.2962 5.61914 11.7291 5.17908 12.2583 5.17908H25.5891C25.9095 5.17908 26.2146 5.34192 26.3901 5.61914C26.5665 5.89539 26.5989 6.23743 26.4702 6.547L22.08 16.807C21.9198 17.1653 21.5832 17.3938 21.1989 17.3938Z" fill="white"/>
+                    </svg>
+                    Add to Cart
+                </button>
+            </div>
+            <div class="services__item-title">
+                In print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+            <div class="services__item-desc">
+                Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups. Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+        </div>
+        <div class="services__item">
+            <img class="services__item-image" src="./assets/images/services.png">
+            <div class="services__item-title">
+                Expert Prespective Agency Awards
+            </div>
+            <div class="services__item-desc">
+                Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+        </div>
+        <div class="services__item">
+            <img class="services__item-image" src="./assets/images/services.png">
+            <div class="services__item-title">
+                Expert Prespective Agency Awards
+            </div>
+            <div class="services__item-desc">
+                Lorem ipsum is placeholder text commonly used in print, and publishing industries for previewing layouts and visual mockups.
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__item">
+                <div class="footer__item-title">
+                    INFORMATION
+                </div>
+                <div class="footer__item-content">
+                    <div class="item-content__element">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12" fill="none">
+                            <path d="M2.3 1H12.7C13.415 1 14 1.585 14 2.3V10.1C14 10.815 13.415 11.4 12.7 11.4H2.3C1.585 11.4 1 10.815 1 10.1V2.3C1 1.585 1.585 1 2.3 1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 2.30005L7.5 6.85005L1 2.30005" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div class="item-content__element-text">
+                            Company@gmail.com.com
+                        </div>
+                    </div>
+                    <div class="item-content__element">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12" fill="none">
+                            <path d="M2.3 1H12.7C13.415 1 14 1.585 14 2.3V10.1C14 10.815 13.415 11.4 12.7 11.4H2.3C1.585 11.4 1 10.815 1 10.1V2.3C1 1.585 1.585 1 2.3 1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 2.30005L7.5 6.85005L1 2.30005" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div class="item-content__element-text">
+                            Phone: (064) 332-1233
+                        </div>
+                    </div>
+                    <div class="item-content__element">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="12" viewBox="0 0 15 12" fill="none">
+                            <path d="M2.3 1H12.7C13.415 1 14 1.585 14 2.3V10.1C14 10.815 13.415 11.4 12.7 11.4H2.3C1.585 11.4 1 10.815 1 10.1V2.3C1 1.585 1.585 1 2.3 1Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14 2.30005L7.5 6.85005L1 2.30005" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <div class="item-content__element-text">
+                            450 Wall Street, USA, New York
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item-title">ABOUT THE STORE</div>
+                <div class="footer__item-content">
+                    <div class="footer__item-content-text">Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</div>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item-title">ABOUT THE STORE</div>
+                <div class="footer__item-content">
+                    <div>www.company.com</div>
+                    <div class="item-content-logos">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+                            <path d="M19.3909 1.00841C18.5904 1.57307 17.704 2.00495 16.766 2.28741C16.2625 1.70852 15.5934 1.29822 14.8492 1.112C14.1049 0.925781 13.3215 0.972624 12.6047 1.24619C11.888 1.51977 11.2725 2.00686 10.8416 2.64161C10.4107 3.27636 10.1852 4.02813 10.1954 4.79525V5.6312C8.72637 5.6693 7.27068 5.34348 5.95802 4.68277C4.64536 4.02207 3.51647 3.04698 2.6719 1.84435C2.6719 1.84435 -0.671898 9.36789 6.85164 12.7117C5.13003 13.8803 3.07914 14.4663 1 14.3836C8.52354 18.5633 17.719 14.3836 17.719 4.77018C17.7182 4.53733 17.6958 4.30505 17.6521 4.07634C18.5053 3.23495 19.1073 2.17264 19.3909 1.00841V1.00841Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+                            <path d="M19.3909 1.00841C18.5904 1.57307 17.704 2.00495 16.766 2.28741C16.2625 1.70852 15.5934 1.29822 14.8492 1.112C14.1049 0.925781 13.3215 0.972624 12.6047 1.24619C11.888 1.51977 11.2725 2.00686 10.8416 2.64161C10.4107 3.27636 10.1852 4.02813 10.1954 4.79525V5.6312C8.72637 5.6693 7.27068 5.34348 5.95802 4.68277C4.64536 4.02207 3.51647 3.04698 2.6719 1.84435C2.6719 1.84435 -0.671898 9.36789 6.85164 12.7117C5.13003 13.8803 3.07914 14.4663 1 14.3836C8.52354 18.5633 17.719 14.3836 17.719 4.77018C17.7182 4.53733 17.6958 4.30505 17.6521 4.07634C18.5053 3.23495 19.1073 2.17264 19.3909 1.00841V1.00841Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+                            <path d="M19.3909 1.00841C18.5904 1.57307 17.704 2.00495 16.766 2.28741C16.2625 1.70852 15.5934 1.29822 14.8492 1.112C14.1049 0.925781 13.3215 0.972624 12.6047 1.24619C11.888 1.51977 11.2725 2.00686 10.8416 2.64161C10.4107 3.27636 10.1852 4.02813 10.1954 4.79525V5.6312C8.72637 5.6693 7.27068 5.34348 5.95802 4.68277C4.64536 4.02207 3.51647 3.04698 2.6719 1.84435C2.6719 1.84435 -0.671898 9.36789 6.85164 12.7117C5.13003 13.8803 3.07914 14.4663 1 14.3836C8.52354 18.5633 17.719 14.3836 17.719 4.77018C17.7182 4.53733 17.6958 4.30505 17.6521 4.07634C18.5053 3.23495 19.1073 2.17264 19.3909 1.00841V1.00841Z" stroke="white" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
