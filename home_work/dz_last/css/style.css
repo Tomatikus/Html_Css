@@ -93,6 +93,7 @@ a {
     padding-left: 33px;
     padding-bottom: 32px;
     padding-right: 74px;
+    z-index: -2;
 }
 
 .hamburger-menu__title {
